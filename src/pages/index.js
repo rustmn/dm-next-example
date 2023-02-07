@@ -50,15 +50,6 @@ const videos = [
 ];
 
 export default function Home() {
-  /*
-  const [Player, setPlayer] = useState();
-
-  useEffect(async () => {
-    const { Player } = await import('dm-standard');
-    console.log('PL', Player)
-    setPlayer(Player);
-  }, []);
-  */
   return (
     <div style = {{
       width: '80vw',
